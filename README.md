@@ -14,5 +14,3 @@ Run the CLI with three config families:
 python -m agldm.cli prepare_data --data-config configs/data/cub.yaml
 python -m agldm.cli train_vqvae --data-config configs/data/cub.yaml --model-config configs/model/agldm_cub.yaml --train-config configs/train/base.yaml
 ```
-
-The project is intentionally config-driven so the CUB MVP can later be extended to `AWA2` and `SUN`.
