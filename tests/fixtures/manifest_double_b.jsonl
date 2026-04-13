@@ -1,0 +1,1 @@
+{"image": "tests/fixtures/sample_1.ppm", "class_id": 1, "class_name": "class_1", "split": "train_seen", "attributes": [1.0, 0.0], "text": "text 1", "texts": ["text 1", "alt 1"]}

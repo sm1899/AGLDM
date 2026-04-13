@@ -1,0 +1,16 @@
+dataset_name: cub
+raw_root: data/raw/CUB_200_2011
+xian_split_mat: data/raw/xlsa17/data/CUB/att_splits.mat
+caption_root: data/raw/text_c10
+caption_manifest: data/processed/cub/captions.json
+allow_blip_fallback: true
+blip_model_name: Salesforce/blip-image-captioning-base
+manifest_path: data/processed/cub/manifest.jsonl
+stats_path: data/processed/cub/stats.json
+image_size: 256
+num_workers: 4
+attribute_threshold: 0.5
+attribute_matrix_transpose: true
+binarize_attributes: true
+attribute_dim: 312
+seed: 42

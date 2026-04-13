@@ -1,0 +1,24 @@
+vqvae:
+  in_channels: 3
+  base_channels: 64
+  latent_channels: 256
+  codebook_size: 1024
+  commitment_beta: 0.25
+  lpips_weight: 1.0
+  adv_weight: 0.1
+  disc_base_channels: 64
+
+classifier:
+  pretrained: true
+
+text_encoder:
+  model_name: openai/clip-vit-base-patch32
+
+ldm:
+  latent_channels: 256
+  base_channels: 128
+  num_heads: 8
+  conditioning_mode: full
+  num_train_steps: 1000
+  beta_start: 0.0001
+  beta_end: 0.02

@@ -1,0 +1,39 @@
+output_root: outputs/cub
+seed: 42
+
+vqvae:
+  batch_size: 16
+  eval_batch_size: 16
+  epochs: 100
+  lr: 0.0002
+  disc_lr: 0.0002
+  max_train_items: null
+  max_val_items: null
+
+classifier:
+  batch_size: 32
+  eval_batch_size: 32
+  epochs: 20
+  lr: 0.0001
+  weight_decay: 0.0001
+  max_train_items: null
+  max_val_items: null
+
+ldm:
+  batch_size: 8
+  eval_batch_size: 8
+  epochs: 200
+  lr: 0.0001
+  weight_decay: 0.0001
+  grad_clip: 1.0
+  ema_decay: 0.9999
+  lambda_attr: 1.0
+  conditioning_mode: full
+  use_classifier_guidance: true
+  max_train_items: null
+  max_val_items: null
+
+eval:
+  batch_size: 8
+  ddim_steps: 50
+  max_eval_items: null

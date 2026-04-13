@@ -1,0 +1,1 @@
+{"image": "tests/fixtures/sample_0.ppm", "class_id": 7, "class_name": "bird.class", "split": "train_seen", "attributes": [0.0, 1.0, 0.0, 1.0], "text": "a small bird", "texts": ["a small bird", "a brown bird"]}
