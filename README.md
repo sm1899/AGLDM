@@ -1,6 +1,6 @@
-# AGLDM Research MVP
+# AGLDM
 
-This repository contains a fresh PyTorch implementation of the AGLDM paper:
+This repository contains a PyTorch implementation of the AGLDM paper:
 
 - `prepare_data`: build a CUB manifest from raw dataset assets and standard zero-shot splits.
 - `train_vqvae`: train the VQ-VAE / VQGAN image autoencoder on seen classes.
